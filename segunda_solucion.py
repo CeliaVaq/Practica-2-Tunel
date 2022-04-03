@@ -114,7 +114,7 @@ def main():
         cid += 1
         p = Process(target=car, args=(cid, direction, monitor))
         p.start()
-        time.sleep(random.expovariate(1/0.3)) # a new car enters each 0.5s
+        time.sleep(random.expovariate(1/0.3)) # a new car enters each 0.3s
 
 if __name__ == '__main__':
     main()
