@@ -66,7 +66,7 @@ class Monitor():
         
         if direction == NORTH:
             self.inside_north.value = self.inside_north.value - 1
-            if (self.inside_north.value==0): # or self.contador.value >= MAX
+            if (self.inside_north.value==0):
                 self.contador_south.value = 0
                 
                 self.sem_north.notify_all()
