@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 24 10:43:22 2022
-
-@author: mat
+@author: grupo 20 de trabajo
 """
 
 import time
